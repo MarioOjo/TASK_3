@@ -78,21 +78,6 @@ body {
     width:100%;
   }
   
-.flexRowItem{
-    padding: 2em;
-    flex: 10px;
-    background-color: purple;
-    text-align: right;
-    text-indent: 100;
-}
-
-.flexColItem{
-  display:flex;
-  flex-direction: row;
-  justify-content:center;
-  align-items: center;
-  width: 100%;
-}
 
 .textFlex{
   display:flex;
@@ -731,24 +716,28 @@ footer {
   height: auto;
   margin-right: 5px;
 }
-
-
-/* .testContainer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
+.testContainer{
+display:flex ;
+justify-content: center;
+align-items: right ;
+flex-direction:row ;
 }
-
 .testItem1{
   flex: 50%;
   padding: 3em;
-  height: 450px;
-  
+  height:450px;
+  width: 100%;
+
 }
 
 .testItem1 img{
-  width: 100%;
+  width: 609px;
+  height: 649px;
+  margin-right: 5px;
+  align-items: flex-start;
+  border-radius: 5px;
+
+
 }
 
 .flexTestColumn{
@@ -760,3 +749,18 @@ footer {
   height: 100%;
 } */
   
+.flexRowItem{
+  padding: 2em;
+  flex: 10px;
+  background-color: purple;
+  text-align: right;
+  text-indent: 100;
+}
+
+.flexColItem{
+display:flex;
+flex-direction: row;
+justify-content:center;
+align-items: center;
+width: 100%;
+}
