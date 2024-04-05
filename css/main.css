@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-image: url(//assets/images/headerbackBack.png);
 }
 
 /* Fonts */
@@ -18,10 +19,6 @@ body {
   font-weight: 400;
 }
 
-/* General styles */
-body {
-  background: rgb(228, 210, 210);
-}
 
 .topNav {
   width: 50%;
@@ -30,10 +27,11 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #583838; /* Added background color */
+  background-color: #dfd2d2; /* Added background color */
   border-radius: 50px; /* Fixed border radius property */
   margin: 10px;
   margin-left: 500px;
+  padding:0 20px ;
 }
 
 .navFlex img {
@@ -44,6 +42,7 @@ body {
 .navFlex a {
   padding: 0 20px; /* Adjusted padding */
   color: grey;
+  font-size: 18px;
 }
 .navFlex a:hover{
   opacity: 80%;
@@ -122,6 +121,7 @@ footer {
   width: 25%;
   height: auto;
   margin-right: 5px;
+
 }
 
 /* Test container */
@@ -139,6 +139,7 @@ footer {
   padding: 3em;
   height: 450px;
   width: 100%;
+  background-color:rgb(49, 7, 49);
 }
 
 .testItem1 img,
@@ -176,31 +177,33 @@ body {
   background-size: cover;
   background-position: right;
   background-color: #f9f9f9;
-  padding: 2em 4em;
-  width: 100%;
-  margin: 50px 0;
+  padding: 8em ;
+  width: 800px;
+  height: 900px;
+  margin: 300px ;
   border-radius: 20px;
 }
 
 #contact h3 {
-  color: #5b7b5b;
-  font-family: 'Sacramento', cursive;
-  font-size: 40px;
+  color: white;
+  font-family: "Poppins Medium";
+  font-size: 48px;
   font-weight: 400;
 }
 
 #contact input,
 #contact textarea,
 #contact button {
-  font-family: 'Roboto', sans-serif;
-  font-size: 15px;
+  font-family: 'Poppins Medium', sans-serif;
+  font-size: 18px;
   font-weight: 400;
 }
 
 fieldset {
   border: none; /* Removed unnecessary border */
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 30px;
+  
 }
 
 #contact input, 
@@ -209,25 +212,30 @@ fieldset {
   border: 1px solid #ccc; /* Corrected border syntax */
   background-color: #f3f3f3; /* Corrected background-color property */
   margin: 0 0 5px;
-  padding: 10px;
+  padding: 20px;
   color: #000000;
-  border-radius: 20px;
+  border-radius: 10px;
+  height: 50px;
+ 
 }
 
 #contact textarea {
   height: 100px;
   max-width: 100%; /* Corrected max-width syntax */
   resize: none;
+  height: 200px;
 }
 
 #contact button {
   cursor: pointer;
-  width: 100%; /* Adjusted button width */
+  width: 270px;
+  height: 70px;
   border: none;
-  background-color: #13f0f0;
+  background-color: red;
   color: #ffffff;
-  padding: 10px;
-  font-size: 16px;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 12px;
 }
 
 #contact input:focus,
@@ -236,5 +244,96 @@ fieldset {
 }
 
 #contact button:hover {
-  background-color: aqua;
+  background-color: rgb(78, 8, 78);
 }
+.headContainer {
+  text-align: left;
+  padding: 2em;
+}
+
+.mainHead {
+  font-size: 1.5em;
+  font-family: "Poppins Medium";
+}
+
+.subHead {
+  font-size: 2em;
+  font-family: "Poppins Bold";
+}
+.flexMap{
+  align-items: end;
+  border-radius: 2000px;
+}
+.map{
+  padding: 1em;
+  margin:10px;
+  border-radius: 142px;
+}
+
+.flexRow {
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.flexRowItem {
+    flex: 1;
+    display: flex;
+}
+
+.flexCol {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(71, 11, 71);
+    border-radius: 20px;
+    padding: 5em;
+}
+
+.flexColItem {
+    margin-top: 20px;
+ 
+}
+button {
+    padding: 5px 10px;
+    margin-right: 10px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    height: 70px;
+    width: 270px;
+    font-size: 20px;
+    font-family: "Poppins Semi Bold";
+}
+.flexColItem button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  
+}
+
+.flexColItem button:hover {
+  background-color: rgb(61, 4, 61)
+  
+}
+.flexCol{
+
+text-indent: 80 ;
+justify-content: center;
+ text-justify: newspaper;
+}
+
+.star{
+  align-items: center;
+}
+.image {
+  align-items: self-start;
+}
+
+
+
